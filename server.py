@@ -7,6 +7,7 @@ app = Flask(__name__)
 def paginaInicial():
     return render_template("index.html")
 
+
 #App.run
 if __name__ == "__main__":
     app.run(debug=True)
